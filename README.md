@@ -3,6 +3,8 @@ Unity game adaptable for up to 20 local players, provided you find enough input 
 
 Source: https://github.com/jensandersson/jens-race
 
+WebGL demo build: http://www.lysator.liu.se/~jensa/book/race
+
 This simple infinity game without any way of winning can be adapted into a competitive
 game and rebranded as you wish. Currently, arrow keys + shift + space provide controls
 for the first player, and the next 4 players can be controlled with USB game pads using
