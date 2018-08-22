@@ -13,8 +13,12 @@ Press space bar or A to honk.
 
 It is prepared for keyboard input for player 0, USB gamepads for 1-4 and MQTT inputs for
 player 5-19. That is, a total of 20 player can play provided 5-19 bring their own inputs
-via MQTT. Note that client certificate connections to AWS IoT does *not* currently
-(March 2018) work in Unity, although the required TLS 1.2 support is expected in the future.
+via MQTT.
+
+Note that client certificate connections to AWS IoT does *not* currently (March 2018) work
+in Unity, although the required TLS 1.2 support is expected in the future.
+UPDATE: I believe 2018.2 should fix this (mentions "TLS 1.2 support" in its changelog), but
+I have not verified it myself yet. https://unity3d.com/unity/whats-new/unity-2018.2.0
 
 All project source code under Apache License 2.0: https://www.apache.org/licenses/LICENSE-2.0
 
